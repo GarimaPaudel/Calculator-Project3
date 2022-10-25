@@ -1,6 +1,40 @@
-.container{
+body {
     display: flex;
     height: 100vh;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+.name{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.container {
+    background-color: rgba(60, 63, 49, 0.425);
+    border-radius: 10px;
+    box-shadow: 5px 8px;
+}
+
+.button {
+    height: 55px;
+    width: 20px;
+    padding: 20px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(186, 115, 214);
+}
+.input{
+    margin: 5px;
+    height: 50px;
+    width: 214px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+.input{
+    font-size: 1.5em;
 }
